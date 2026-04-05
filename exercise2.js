@@ -27,10 +27,11 @@ switch (bugPriority) {
         console.log("Giá trị không hợp lệ");
 }
 
-// Bài 3: Kiểm tra điều kiện Coupon Một mã giảm giá chỉ áp dụng nếu: totalBill > 500 VÀ isMember === true. Hãy viết code để kiểm tra xem khách hàng có được giảm giá không.
+// Bài 3: Kiểm tra điều kiện Coupon Một mã giảm giá chỉ áp dụng nếu: totalBill > 500 VÀ isMember === true. 
+// Hãy viết code để kiểm tra xem khách hàng có được giảm giá không.
 
 let totalBill = 600;
-let isMember = true;
+let isMember = false;
 if (totalBill > 500 && isMember) {
     console.log("Khách hàng được giảm giá");
 } else {
