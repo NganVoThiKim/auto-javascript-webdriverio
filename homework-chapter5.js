@@ -2,11 +2,7 @@
 // Nếu độ dài chuỗi >= 8: trả về true.
 // Ngược lại: trả về false.
 function isPasswordValid(password) {
-    if (password.length >= 8) {
-        return true;
-    } else {
-        return false;
-    }
+    return password.length >= 8 ? true : false;
 }
 //let password = "mySecret";
 let password = "short";
@@ -29,9 +25,9 @@ const myBugs = [
     { id: 3, severity: "High" }
 ];
 // Viết hàm getHighSeverityBugs(list) để trả về một mảng mới chỉ chứa các bug có severity là "High".
-function getHighSeverityBugs(list) {
+function getHighSeverityBugs(bugList) {
     const highSeverityBugs = [];
-    for (const bug of list) {
+    for (const bug of bugList) {
         if (bug.severity === "High") {
             highSeverityBugs.push(bug);
         }

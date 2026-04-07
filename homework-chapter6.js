@@ -7,13 +7,12 @@
 //     let Error_message = "fail";
 //     console.log(Error_message)
 // }
-const baseUrl = "https://google.com"
+const BASE_URL = "https://google.com"
 let isVisible = true
 function dangNhap(username, password) {
     let errorMessage = "fail";
     console.log(errorMessage)
 }
-
 
 // Bài 1: Chỉnh lại đoạn code dưới đây cho đúng convention
 // const Url_DANG_NHAP = "https://test-site.com/login"
@@ -29,7 +28,7 @@ function dangNhap(username, password) {
 //     }
 // }
 
-const urlDangNhap = "https://test-site.com/login"
+const Url_DANG_NHAP = "https://test-site.com/login"
 let kiemTraButton = true
 var user = "admin_01"
 
