@@ -82,11 +82,11 @@ function clickButton() {
     });
 }
 
-// openBrowser()
-//     .then(() => enterUrl("https://test.com"))
-//     .then(() => clickButton())
-//     .then(() => console.log("✅ Test hoàn tất!"))
-//     .catch(error => console.error("Error: ", error));
+openBrowser()
+    .then(() => enterUrl("https://test.com"))
+    .then(() => clickButton())
+    .then(() => console.log("✅ Test hoàn tất!"))
+    .catch(error => console.error("Error: ", error));
 
 // 2. Sử dụng Async/Await để thực thi chuỗi hành động trên sao cho code trông "thẳng" và dễ đọc nhất.
 
